@@ -1,0 +1,131 @@
+.page4{
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.page4 .title{
+    margin-bottom: 1rem;
+}
+
+.page4 .icon select{
+    border: 0;
+    padding: 0.5rem ;
+    background-color: gray;
+}
+
+.page4 .mercado{
+    padding-top: 2rem;
+}
+
+.page4 .mercado .box{
+    width: 250px;
+    height: 150px;
+    /* padding: 0.5rem 0.5rem 0 0.5rem; */
+    margin: 2rem 0rem;
+
+    background-color: #F8DBDB;
+}
+
+.page4 .mercado .box .linhas{
+    display: flex;
+
+}
+
+
+.page4 .mercado .box .linhas .linha1{
+    height: 10px;
+    width: 80%;
+    background: #E28A3B;
+}
+
+.page4 .mercado .box .linhas .linha2{
+    height: 10px;
+    width: 40%;
+    background: gray;
+}
+
+.page4 .mercado .box .dados{
+    height: 80%;
+    padding-left: 1rem;
+    padding-bottom:0.5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+.page4 .mercado .box .pontos{
+    text-align: end;
+    padding-right: 1rem;
+    padding-top:0.5rem;
+}
+.page4 .mercado .box .curso{
+    text-align:start;
+    justify-content: right;
+}
+
+
+
+
+
+
+.page4 .informatica{
+    padding-top: 2rem;
+}
+
+.page4 .informatica .box{
+    width: 250px;
+    height: 150px;
+    /* padding: 0.5rem 0.5rem 0 0.5rem; */
+    margin: 2rem 0rem;
+
+    background-color: #C4C4C4;
+}
+
+.page4 .informatica .box .linhas{
+    display: flex;
+
+}
+
+
+.page4 .informatica .box .linhas .linha1{
+    height: 10px;
+    width: 80%;
+    background: #E28A3B;
+}
+
+.page4 .informatica .box .linhas .linha2{
+    height: 10px;
+    width: 40%;
+    background: gray;
+}
+
+.page4 .informatica .box .dados{
+    height: 80%;
+    padding-left: 1rem;
+    padding-bottom:0.5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+.page4 .informatica .box .pontos{
+    text-align: end;
+    padding-right: 1rem;
+    padding-top:0.5rem;
+}
+.page4 .informatica .box .curso{
+    text-align:start;
+    justify-content: right;
+}

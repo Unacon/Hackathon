@@ -1,0 +1,32 @@
+.splash{
+    width: 100%;
+    height: 100vh;
+    padding: 3rem;
+
+    background-color: #FFDCBD;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.splash {
+    width: 100vw;
+    height: 100vh;
+}
+
+.splash .slogan{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.splash .slogan img{
+    width: 150px;
+    margin-bottom: 3rem;
+}

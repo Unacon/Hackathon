@@ -1,0 +1,10 @@
+@import url('./page1.css');
+@import url('./page2.css');
+@import url('./page3.css');
+@import url('./page4.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

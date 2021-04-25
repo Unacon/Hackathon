@@ -1,0 +1,66 @@
+.page2{
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page2 h1{
+    margin-bottom: 10rem;
+}
+
+.page2 .cadastro{
+    font-size: 2rem;
+    width: 100%;
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page2 .cadastro input{
+    padding: 0.5rem 0rem;
+}
+
+.page2 .cadastro .login{
+    width: 100%;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.page2 .cadastro input{
+    width: 100%;
+}
+
+.page2 .cadastro label{
+    margin-right: 0.5rem;
+
+}
+
+.page2 .cadastro .senha{
+    width: 100%;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.page2 .cadastro button{
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+    border: 0;
+
+    background-color: #E95400;
+}
