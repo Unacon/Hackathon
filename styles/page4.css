@@ -1,7 +1,7 @@
 .page4{
     width: 100vw;
     height: 100vh;
-    padding: 3rem;
+    padding: 1rem 3rem;
 
     display: flex;
     /* justify-content: center; */
@@ -9,9 +9,15 @@
     flex-direction: column;
 }
 
-.page4 .title{
+.page4 header{
+    width: 100%;
     margin-bottom: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .page4 .icon select{
     border: 0;
@@ -24,29 +30,45 @@
 }
 
 .page4 .mercado .box{
-    width: 250px;
+    width: 100%;
     height: 150px;
     /* padding: 0.5rem 0.5rem 0 0.5rem; */
     margin: 2rem 0rem;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: flex-end;
 
     background-color: #F8DBDB;
 }
 
+.page4 a{
+    text-decoration: none;
+}
+
+.page4 .mercado .box.tipo1{
+    background-image: url('../images/oratoria');
+    background-repeat: round;
+}
+
+.page4 .mercado .box.tipo2{
+    background-image: url('../images/entrevista');
+    background-repeat: round;
+}
 .page4 .mercado .box .linhas{
     display: flex;
-
 }
 
 
 .page4 .mercado .box .linhas .linha1{
     height: 10px;
-    width: 80%;
-    background: #E28A3B;
+    width: 70%;
+    background: #49B26D;
 }
 
 .page4 .mercado .box .linhas .linha2{
     height: 10px;
-    width: 40%;
+    width: 30%;
     background: gray;
 }
 
@@ -55,8 +77,10 @@
     padding-left: 1rem;
     padding-bottom:0.5rem;
 
+    color: #fff;
+
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: start;
     flex-direction: column;
 }
@@ -70,6 +94,12 @@
 .page4 .mercado .box .curso{
     text-align:start;
     justify-content: right;
+}
+
+.page4 .mercado .box .cargahorario{
+    width: 100%;
+    text-align: end;
+    padding-right: 1rem;
 }
 
 

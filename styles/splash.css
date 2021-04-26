@@ -27,6 +27,12 @@
 }
 
 .splash .slogan img{
-    width: 150px;
-    margin-bottom: 3rem;
+    height: 121px;
+    width: 93px;
+    margin-bottom: 2rem;
+}
+
+.splash .slogan h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }

@@ -1,15 +1,28 @@
 const img = document.getElementById('img');
-console.log(img)
-const image =['red','blue','orange'];
-let i = 1;
-
-img.addEventListener('click', () => {
-    img.style.backgroundColor = image[i];
-    i++;
-    if(i==3){
-        i=0;
-    }
+const text = document.getElementById('text');
 
 
-});
-    
+images = [];
+images.push('./images/img1');
+images.push('./images/img2');
+images.push('./images/img3');
+
+
+
+text1 = [];
+text1.push('Dificuldade em passar na entrevista? Keep Calm, que o Rocket te dá um help!');
+text1.push('É meme que fala? Nosso método vai lacrar!');
+text1.push('Você poderá ir mais longe com o nosso jeito de ensinar com memes. Bora?');
+
+
+var nrImagem = 0;
+var refrescar = 3;
+
+rodarImagens = function () {
+    document.images["img"].src = images[nrImagem];
+    text.innerHTML = text1[nrImagem];
+
+ 
+    nrImagem = (nrImagem + 1) % images.length; 
+ }
+ var intervalControl = setInterval(rodarImagens, 1000 * refrescar);

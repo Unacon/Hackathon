@@ -1,4 +1,4 @@
-.page2{
+.cadastros{
     width: 100vw;
     height: 100vh;
     padding: 3rem;
@@ -9,24 +9,19 @@
     flex-direction: column;
 }
 
-.page2 .header{
+.cadastros .header{
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
-.page2 .header div{
+.cadastros .header div{
     text-align: start;
 }
 
-.page2 h1{
+.cadastros h1{
     margin-bottom: 1rem;
 }
 
-.page2 a{
-    text-decoration: none;   
-    color: white; 
-}
-
-.page2 .cadastro{
+.cadastros .cadastro{
     font-size: 2rem;
     width: 100%;
 
@@ -36,7 +31,7 @@
     flex-direction: column;
 }
 
-.page2 .cadastro input{
+.cadastros .cadastro input{
     padding: 0.5rem 0rem;
     
     /* border: ; */
@@ -44,7 +39,7 @@
     border-color: gray;
 }
 
-.page2 .cadastro .login{
+.cadastros .cadastro .login{
     width: 100%;
     margin: 1rem;
 
@@ -55,18 +50,18 @@
 
 }
 
-.page2 .cadastro input{
+.cadastros .cadastro input{
     width: 100%;
 }
 
-.page2 .cadastro label{
+.cadastros .cadastro label{
     margin-right: 0.5rem;
     padding-bottom: 1rem;
     font-size: 1.5rem;
 
 }
 
-.page2 .cadastro .senha{
+.cadastros .cadastro .senha{
     width: 100%;
     margin: 1rem;
 
@@ -76,13 +71,18 @@
     flex-direction: column;
 }
 
-.page2 .cadastro button{
+.cadastros .cadastro button{
     width: 100%;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 1rem 4rem;
     border: 0;
     border-radius: 8px;
 
     color: #fff;
     background-color: #E28A3B;
+}
+
+.cadastros a{
+    color: black;
 }
