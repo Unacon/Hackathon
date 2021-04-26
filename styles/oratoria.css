@@ -72,8 +72,10 @@
 header > nav.bar button{
     padding: 0.5rem 1rem;
 
-    border-radius: 8px;
-    background-color: white;
+
+    border-color: gray;
+    border: 1px solid;
+    border-radius: 6px;
 }
 
 
