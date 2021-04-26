@@ -15,7 +15,7 @@ text1.push('É meme que fala? Nosso método vai lacrar!');
 text1.push('Você poderá ir mais longe com o nosso jeito de ensinar com memes. Bora?');
 
 
-var nrImagem = 0;
+var nrImagem = 1;
 var refrescar = 3;
 
 rodarImagens = function () {
